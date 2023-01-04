@@ -1,0 +1,81 @@
+body{
+    background: #CCCCCC;
+}
+
+#ppal{
+    padding: 15px;
+}
+
+#banner{
+    background: aliceblue;
+    width:100%;
+    margin: 0%;
+
+}
+
+h1{
+    text-align: center;
+    border: 5px solid;
+    padding-right: 50%;
+    background-color: azure;
+
+}
+
+.centralizado{
+    text-align: center;
+    font-size: 25px;
+}
+
+#fi{
+    font-size: 20px;
+    text-align: center;
+} 
+
+.same{
+    text-align: justify;
+}
+
+em strong{
+    color: #e24444;
+}
+
+#diferencial{
+    background-color: aliceblue;
+
+}
+
+
+h2{
+    text-align: center;
+}
+
+ul{
+    display: inline-block;
+    vertical-align:top;
+    margin-right: 15%;
+    width: 20%;
+}
+
+li::first-letter{
+    font-style: italic;
+    text-transform: uppercase;
+}
+
+#diferencial{
+    margin: 15px;
+}
+
+#diferencial img{
+    width: 50%;
+    display: inline-block;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div button {
+    font-size: large;
+}

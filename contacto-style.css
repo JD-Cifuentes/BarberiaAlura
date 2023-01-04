@@ -1,0 +1,107 @@
+header {
+    background-color: lightgrey;
+    padding: 20px 0;
+}
+
+.container{
+    width: 940px;
+    position: relative;
+    margin: 0 auto;
+}
+
+nav a:hover {
+    color: goldenrod;
+    text-decoration:underline;
+}
+
+nav{
+    position: absolute;
+    top: 110px;
+    right: 0;
+}
+
+nav li{
+    display:inline;
+    margin: 0 0 0 15px;
+    
+}
+
+nav a {
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    font-size: large;
+    text-decoration: none;
+}
+
+main {
+    width: 940px;
+    margin: 0 auto;
+}
+
+form {
+    margin: 40px 0;
+}
+
+form label, form legend {
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+
+.input-padron {
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 50%;
+}
+
+.checkbox {
+    margin: 20px 0;
+}
+
+.button-send {
+    width: 40%;
+    padding: 15px 0;
+    font-size: 18px;
+    color: white;
+    background-color: darkgoldenrod;
+    border-radius: 25px;
+    border-width: 0;
+    transition: 1s all;
+    cursor: pointer;
+}
+
+.button-send:hover {
+    background-color: orange;
+    transform: scale(1.2) rotate(3deg);
+}
+
+table {
+    margin: 40px 40px;
+}
+
+th,td {
+    border: 1px solid black;
+    padding: 8px 15px;
+}
+
+thead {
+    background-color: lightslategray;
+    color: white;
+    font-weight: bold;
+}
+
+footer {
+    text-align: center;
+    background-image: url(imagenes/imagenes/bg.jpg);
+    padding: 40px;
+
+}
+
+.copyright {
+    color: white;
+    font-size: small;
+    margin: 20px;
+}
+
