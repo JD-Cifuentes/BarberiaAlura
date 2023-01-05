@@ -1,0 +1,99 @@
+header {
+    background-color: lightgrey;
+    padding: 20px 0;
+}
+
+.container{
+    width: 940px;
+    position: relative;
+    margin: 0 auto;
+}
+
+nav a:hover {
+    color: goldenrod;
+    text-decoration:underline;
+}
+
+nav{
+    position: absolute;
+    top: 110px;
+    right: 0;
+}
+
+nav li{
+    display:inline;
+    margin: 0 0 0 15px;
+    
+}
+
+nav a {
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    font-size: large;
+    text-decoration: none;
+}
+
+.prod{
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px;
+}
+
+.prod li{
+    display:inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1,5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border-width: 2px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 15px 15px 45px 15px;
+}
+
+.prod :hover{
+    border-color: goldenrod;
+    border-width: 4px;
+}
+
+.prod li:hover h2{
+    font-size: 33px;
+}
+
+.prod li:active{
+    border-color: rgb(59, 71, 240);
+    border-width: 4px;
+    font-size: 33px;
+}
+
+.prod h2 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.prod-description{
+    font-size: 18px;
+}
+
+.prod-price{
+    font-size: 20px;
+    font-weight: bolder;
+    margin-top: 10px;
+}
+
+footer {
+    text-align: center;
+    background-image: url(../pics/bg.jpg);
+    padding: 40px;
+
+}
+
+.copyright {
+    color: white;
+    font-size: small;
+    marging: 20px;
+}
+
