@@ -1,5 +1,9 @@
+body{
+    background:linear-gradient(lightgray, rgb(99, 97, 97));
+}
+
 main {
-    width: 940px;
+    width: 90%;
     margin: 0 auto;
 }
 
@@ -42,7 +46,7 @@ form label, form legend {
 }
 
 table {
-    margin: 40px 40px;
+    margin: 5% 5%;
 }
 
 th,td {
@@ -56,3 +60,10 @@ thead {
     font-weight: bold;
 }
 
+@media screen and (max-width:560px){
+
+    main{
+        width: 90%;
+    }
+
+}
