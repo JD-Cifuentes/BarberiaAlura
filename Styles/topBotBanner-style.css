@@ -1,13 +1,14 @@
 
 body{
-    background: #CCCCCC;
+    background:linear-gradient(lightgray, rgb(99, 97, 97));
     font-family: 'Montserrat', sans-serif;
 }
 
 header {
-    background-color: lightgrey;
+    background-color: inherit;
     padding: 20px 0;
     display: grid;
+    box-shadow: inset 0 0 20px black;
 }
 
 .container{

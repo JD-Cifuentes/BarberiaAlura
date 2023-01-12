@@ -1,39 +1,47 @@
 .prod{
-    width: 940px;
-    margin: 0 auto;
-    padding: 50px;
+    width: auto;
+    margin: 0 15%;
+    padding: 50px 5%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
 }
 
-.prod li{
-    display:inline-block;
+.prodCard{
     text-align: center;
-    width: 30%;
+    width: 90%;
     vertical-align: top;
-    margin: 0 1,5%;
-    padding: 30px 20px;
-    box-sizing: border-box;
+    margin: 1% 1.5%;
+    padding: 4% 3%;
+    
     border-width: 2px;
     border-style: solid;
     border-color: black;
     border-radius: 15px 15px 45px 15px;
 }
 
-.prod :hover{
+.prodCard:hover{
     border-color: goldenrod;
     border-width: 4px;
 }
 
-.prod li:hover h2{
+.prodCard h2:hover{
     font-size: 33px;
 }
 
-.prod li:active{
+.prod-pic{
+    max-width: 100%;
+    height: auto; 
+
+}
+
+.prodCard:active{
     border-color: rgb(59, 71, 240);
     border-width: 4px;
     font-size: 33px;
 }
 
-.prod h2 {
+.prodCard h2 {
     font-size: 30px;
     font-weight: bold;
 }
@@ -48,3 +56,31 @@
     margin-top: 10px;
 }
 
+@media screen and (max-width: 960px){
+    .prod-description, .prod-price, .prodCard h2{
+        transform: scale(0.8);
+    }
+
+    .prod{
+        margin: 0 10%;
+        padding: 50px 0;
+    }
+    
+}
+
+@media screen and (max-width: 480px){
+    .prod{
+        display: inline-block;
+        margin: 0 15%;
+        padding: 50px 5%;
+    }
+
+    .prodCard{
+        width: auto;
+        margin: 5% 0;
+    }
+
+    .prod-description, .prod-price, .prodCard h2{
+        transform: scale(1);
+    }
+}
